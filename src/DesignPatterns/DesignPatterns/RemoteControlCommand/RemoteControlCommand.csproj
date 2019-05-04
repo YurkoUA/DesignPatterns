@@ -45,6 +45,7 @@
     <Compile Include="Commands\DummyCommand.cs" />
     <Compile Include="Commands\LightOffCommand.cs" />
     <Compile Include="Commands\LightOnCommand.cs" />
+    <Compile Include="Commands\MacroCommand.cs" />
     <Compile Include="Commands\TVOffCommand.cs" />
     <Compile Include="Commands\TVOnCommand.cs" />
     <Compile Include="Control\RemoteControl.cs" />
