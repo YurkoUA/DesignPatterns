@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreIngredientFactory
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlCommand", "RemoteControlCommand\RemoteControlCommand.csproj", "{6430EF0A-2AAB-4EFD-981D-5CC808E3C78D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7E04AA81-1986-4D2E-A434-58A6EB580013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6430EF0A-2AAB-4EFD-981D-5CC808E3C78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6430EF0A-2AAB-4EFD-981D-5CC808E3C78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6430EF0A-2AAB-4EFD-981D-5CC808E3C78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
