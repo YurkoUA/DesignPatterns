@@ -18,13 +18,13 @@ namespace CafeMenus.Entities
 
         public void PrintVegeterianMenu()
         {
-            var iterator = menuComponent.CreateIterator();
+            var enumerator = menuComponent.CreateEnumerator();
 
-            while (iterator.HasNext())
+            while (enumerator.MoveNext())
             {
-                var item = iterator.GetNext();
+                var item = enumerator.Current;
 
-                if (item.IsVegeterian)
+                if (item.IsVegeterian == true)
                 {
                     item.Print();
                 }

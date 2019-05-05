@@ -1,4 +1,4 @@
-﻿using CafeMenus.Iterator;
+﻿using System.Collections.Generic;
 
 namespace CafeMenus.Menus
 {
@@ -9,7 +9,7 @@ namespace CafeMenus.Menus
         public decimal Price { get; set; }
         public bool IsVegeterian { get; set; }
 
-        public abstract IIterator<MenuComponent> CreateIterator();
+        public abstract IEnumerator<MenuComponent> CreateEnumerator();
 
         public virtual void Add(MenuComponent component)
         {

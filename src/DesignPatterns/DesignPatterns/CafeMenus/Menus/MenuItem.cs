@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using CafeMenus.Iterator;
 
 namespace CafeMenus.Menus
 {
     public class MenuItem : MenuComponent
     {
-        public override IIterator<MenuComponent> CreateIterator()
+        public override IEnumerator<MenuComponent> CreateEnumerator()
         {
-            return new DummyIterator<MenuComponent>();
+            return new DummyEnumerator<MenuComponent>();
         }
 
         public override void Print()

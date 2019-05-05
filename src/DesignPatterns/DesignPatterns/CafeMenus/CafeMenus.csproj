@@ -43,10 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Waitress.cs" />
-    <Compile Include="Iterator\ListIterator.cs" />
-    <Compile Include="Iterator\CompositeIterator.cs" />
-    <Compile Include="Iterator\DummyIterator.cs" />
-    <Compile Include="Iterator\IIterator.cs" />
+    <Compile Include="Iterator\MenuEnumerator.cs" />
+    <Compile Include="Iterator\DummyEnumerator.cs" />
     <Compile Include="Menus\Menu.cs" />
     <Compile Include="Menus\MenuComponent.cs" />
     <Compile Include="Menus\MenuItem.cs" />

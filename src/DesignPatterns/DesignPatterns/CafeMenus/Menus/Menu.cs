@@ -8,9 +8,9 @@ namespace CafeMenus.Menus
     {
         private IList<MenuComponent> menuComponents = new List<MenuComponent>();
 
-        public override IIterator<MenuComponent> CreateIterator()
+        public override IEnumerator<MenuComponent> CreateEnumerator()
         {
-            return new CompositeIterator(new ListIterator<MenuComponent>(menuComponents));
+            return new MenuEnumerator(menuComponents.GetEnumerator());
         }
 
         public override void Add(MenuComponent component)
@@ -32,9 +32,11 @@ namespace CafeMenus.Menus
         {
             Console.WriteLine($"Menu {Name} - {Description}");
 
-            foreach (var m in menuComponents)
+            var enumerator = CreateEnumerator();
+
+            while (enumerator.MoveNext())
             {
-                m.Print();
+                enumerator.Current.Print();
             }
         }
     }
