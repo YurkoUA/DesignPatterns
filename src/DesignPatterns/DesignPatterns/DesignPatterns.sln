@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlCommand", "Rem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7E04AA81-1986-4D2E-A434-58A6EB580013}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaffeineBeverage.TemplateMethod", "CaffeineBeverage.TemplateMethod\CaffeineBeverage.TemplateMethod.csproj", "{E4865793-BE18-44C0-A63B-D1DAC0CA3C0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E04AA81-1986-4D2E-A434-58A6EB580013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4865793-BE18-44C0-A63B-D1DAC0CA3C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4865793-BE18-44C0-A63B-D1DAC0CA3C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4865793-BE18-44C0-A63B-D1DAC0CA3C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4865793-BE18-44C0-A63B-D1DAC0CA3C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
