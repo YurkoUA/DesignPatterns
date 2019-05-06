@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaffeineBeverage.TemplateMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenus", "CafeMenus\CafeMenus.csproj", "{44990F93-2E55-4484-9D4D-853AEA61F1C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateGumballMachine", "StateGumballMachine\StateGumballMachine.csproj", "{32B34576-242F-4498-AAFC-6660EE23E6A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{44990F93-2E55-4484-9D4D-853AEA61F1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44990F93-2E55-4484-9D4D-853AEA61F1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44990F93-2E55-4484-9D4D-853AEA61F1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B34576-242F-4498-AAFC-6660EE23E6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B34576-242F-4498-AAFC-6660EE23E6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B34576-242F-4498-AAFC-6660EE23E6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B34576-242F-4498-AAFC-6660EE23E6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
